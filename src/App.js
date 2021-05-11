@@ -1,6 +1,7 @@
 import {
   AppBar,
   Box,
+  Button,
   Card,
   Container,
   IconButton,
@@ -8,7 +9,7 @@ import {
   Typography,
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
-import { Button } from "bootstrap";
+// import { Button } from "bootstrap";
 import React from "react";
 import Form from "./components/form";
 import Weather from "./components/weather";
@@ -72,7 +73,7 @@ class App extends React.Component {
               <Typography variant="h6">Погодное приложение</Typography>
               <Box>
                 <Button color="inherit" variant="outlined">
-                  Log in
+                  Войти
                 </Button>
               </Box>
             </Toolbar>
